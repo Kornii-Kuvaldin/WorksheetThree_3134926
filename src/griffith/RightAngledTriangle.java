@@ -26,6 +26,18 @@ public class RightAngledTriangle extends Shape {
 	public String toString() {
 		return "RightAngledTriangle sideA=" + sideA + ", sideB=" + sideB + ", Name=" + getName();
 	}
+
+	public double getSideA() {
+		return sideA;
+	}
+
+	public double getSideB() {
+		return sideB;
+	}
+
+	public double getHypotenuse() {
+		return Math.sqrt(sideA*sideA+sideB*sideB);
+	}
 	
 
 }
