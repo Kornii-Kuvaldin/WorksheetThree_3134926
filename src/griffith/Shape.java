@@ -1,3 +1,4 @@
+//Kornii Kuvaldin 3134926
 package griffith;
 
 public abstract class Shape {
@@ -23,7 +24,7 @@ public abstract class Shape {
 	abstract double perimeter();
 
 	@Override
-	public String toString() { //Prints name
+	public String toString() { //Prints name and returns it as well
 		System.out.println(name);
 		return name;
 	}
