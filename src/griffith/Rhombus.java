@@ -16,13 +16,13 @@ public class Rhombus extends Shape {
 	}
 
 	@Override
-	double area() {
+	public double area() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	double perimeter() {
+	public double perimeter() {
 		// TODO Auto-generated method stub
 		return 0;
 	}

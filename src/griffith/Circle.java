@@ -9,12 +9,12 @@ public class Circle extends Shape {
 	}
 
 	@Override
-	double area() {
+	public double area() {
 		return 0;
 	}
 
 	@Override
-	double perimeter() {
+	public double perimeter() {
 		return 0;
 		
 	}
