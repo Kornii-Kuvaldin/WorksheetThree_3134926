@@ -2,16 +2,32 @@ package griffith;
 
 public class RightAngledTriangle extends Shape {
 
+	private double sideA;
+	private double sideB;
+	
+	
+	public RightAngledTriangle(String name, double sideA, double sideB) {
+		super(name);
+		this.sideA = sideA;
+		this.sideB = sideB;
+	}
+
 	@Override
-	double area() {
+	public double area() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	double perimeter() {
+	public double perimeter() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
+	@Override
+	public String toString() {
+		return "RightAngledTriangle sideA=" + sideA + ", sideB=" + sideB + ", Name=" + getName();
+	}
+	
 
 }
