@@ -24,5 +24,9 @@ public class Circle extends Shape {
 		return "Circle radius=" + radius + ", Name=" + getName();
 	}
 
+	public double getRadius() {
+		return radius;
+	}
+
 	
 }
