@@ -10,7 +10,7 @@ class ShapeTest {
 	void testCircle() {
 		Circle circle = new Circle("Alpha", 5.0);//Create circle named Alpha with radius of 5
 		assertEquals(2.0*Math.PI*5, circle.perimeter()); //Perimeter test
-		assertEquals(Math.PI*Math.sqrt(5.0), circle.area()); //Area test
+		assertEquals(Math.PI*25, circle.area()); //Area test
 		assertEquals("Circle radius=5.0, Name=Alpha", circle.toString()); //toString test
 	}
 
