@@ -23,7 +23,8 @@ public abstract class Shape {
 	abstract double perimeter();
 
 	@Override
-	public String toString() {
+	public String toString() { //Prints name
+		System.out.println(name);
 		return name;
 	}
 
