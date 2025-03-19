@@ -32,6 +32,20 @@ public class Rhombus extends Shape {
 		return "Rhombus side=" + side + ", diagonal1=" + diagonal1 + ", diagonal2=" + diagonal2 + ", Name="+ getName();
 	}
 
+	public double getSide() {
+		return side;
+	}
+
+	public double getDiagonal1() {
+		// TODO Auto-generated method stub
+		return diagonal1;
+	}
+
+	public double getDiagonal2() {
+		// TODO Auto-generated method stub
+		return diagonal2;
+	}
+
 
 
 }
