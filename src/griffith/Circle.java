@@ -10,19 +10,18 @@ public class Circle extends Shape {
 
 	@Override
 	public double area() {
-		return 0;
+		return Math.PI*Math.sqrt(radius);
+
 	}
 
 	@Override
 	public double perimeter() {
-		return 0;
-		
+		return 2.0*Math.PI*radius;
 	}
 
 	@Override
 	public String toString() {
-		return "";
-		//return "Circle radius=" + radius + ", Name=" + getName();
+		return "Circle radius=" + radius + ", Name=" + getName();
 	}
 
 	
