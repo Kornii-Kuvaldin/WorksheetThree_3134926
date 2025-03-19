@@ -9,8 +9,26 @@ class ShapeTest {
 	@Test
 	void testCircle() {
 		Circle circle = new Circle("Alpha", 5);//Create circle named Alpha with radius of 5
-		assertEquals(2.0*Math.PI*5, circle.perimeter());
-		assertEquals(Math.PI*Math.sqrt(5.0), circle.area());
-		assertEquals("Circle radius=5, Name=Alpha", circle.toString());
+		assertEquals(2.0*Math.PI*5, circle.perimeter()); //Perimeter test
+		assertEquals(Math.PI*Math.sqrt(5.0), circle.area()); //Area test
+		assertEquals("Circle radius=5, Name=Alpha", circle.toString()); //toString test
 	}
+
+	//Rhombus Tests
+	@Test
+	void testRhombus() {
+		Rhombus rhombus = new Rhombus("Beta", 8, 12, 16);
+		assertEquals(32.0, rhombus.perimeter());
+		assertEquals(96.0, rhombus.area());
+		assertEquals("Rhombus side=8, diagonal1=12, diagonal2=16, Name=Beta", rhombus.toString());
+	}
+	
+	@Test
+	void testTriangle() {
+		RightAngledTriangle triangle = new RightAngledTriangle("Gamma", 3, 4);
+		assertEquals(12.0, triangle.perimeter());
+		assertEquals(6.0, triangle.area());
+		assertEquals("RightAngledTriangle sideA=3, sideB=4, Name=Gamma", triangle.toString());
+	}
+
 }
