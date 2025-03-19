@@ -26,7 +26,8 @@ public class RightAngledTriangle extends Shape {
 
 	@Override
 	public String toString() {
-		return "RightAngledTriangle sideA=" + sideA + ", sideB=" + sideB + ", Name=" + getName();
+		return "";
+//		return "RightAngledTriangle sideA=" + sideA + ", sideB=" + sideB + ", Name=" + getName();
 	}
 	
 

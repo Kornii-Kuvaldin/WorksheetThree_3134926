@@ -29,8 +29,9 @@ public class Rhombus extends Shape {
 
 	@Override
 	public String toString() {
-		return "Rhombus side=" + side + ", diagonal_1=" + diagonal_1 + ", diagonal_2=" + diagonal_2 + ", Name="
-				+ getName();
+		return "";
+//		return "Rhombus side=" + side + ", diagonal_1=" + diagonal_1 + ", diagonal_2=" + diagonal_2 + ", Name="
+//				+ getName();
 	}
 
 
