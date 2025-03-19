@@ -1,11 +1,20 @@
 package griffith;
 
 public class Rhombus extends Shape {
-	
+
 	private double side;
 	private double diagonal_1;
 	private double diagonal_2;
-	
+
+
+
+	public Rhombus(String name, double side, double diagonal_1, double diagonal_2) {
+		super(name);
+		this.side = side;
+		this.diagonal_1 = diagonal_1;
+		this.diagonal_2 = diagonal_2;
+	}
+
 	@Override
 	double area() {
 		// TODO Auto-generated method stub
@@ -23,7 +32,7 @@ public class Rhombus extends Shape {
 		return "Rhombus side=" + side + ", diagonal_1=" + diagonal_1 + ", diagonal_2=" + diagonal_2 + ", Name="
 				+ getName();
 	}
-	
-	
+
+
 
 }
