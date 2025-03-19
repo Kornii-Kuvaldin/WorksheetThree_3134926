@@ -14,20 +14,17 @@ public class RightAngledTriangle extends Shape {
 
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (sideA*sideB)/2;
 	}
 
 	@Override
 	public double perimeter() {
-		// TODO Auto-generated method stub
-		return 0;
+		return sideA+sideB+Math.sqrt(sideA*sideA+sideB*sideB);
 	}
 
 	@Override
 	public String toString() {
-		return "";
-//		return "RightAngledTriangle sideA=" + sideA + ", sideB=" + sideB + ", Name=" + getName();
+		return "RightAngledTriangle sideA=" + sideA + ", sideB=" + sideB + ", Name=" + getName();
 	}
 	
 
